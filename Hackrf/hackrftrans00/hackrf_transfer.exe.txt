@@ -1,0 +1,181 @@
+
+2023.06.15
+
+использование hackrf_transfer.exe для передачи
+
+перед любыми экспериментами на передачу на хак ставится аттенюатор 6-10 дБ
+
+-
+
+hackrf_transfer.exe -h
+
+Usage:
+        -h # this help
+        [-d serial_number] # Serial number of desired HackRF.
+        -r <filename> # Receive data into file (use '-' for stdout).
+        -t <filename> # Transmit data from file (use '-' for stdin).
+        -w # Receive data into file with WAV header and automatic name.
+           # This is for SDR# compatibility and may not work with other software.
+		
+        частота излучения
+        [-f freq_hz] # Frequency in Hz [0MHz to 7250MHz].
+        
+		сложные настройки
+		[-i if_freq_hz] # Intermediate Frequency (IF) in Hz [2150MHz to 2750MHz].
+        [-o lo_freq_hz] # Front-end Local Oscillator (LO) frequency in Hz [84MHz to 5400MHz].
+        [-m image_reject] # Image rejection filter selection, 0=bypass, 1=low pass, 2=high pass.
+		
+		параметры усилителей
+        [-a amp_enable] # RX/TX RF amplifier 1=Enable, 0=Disable.
+        [-p antenna_enable] # Antenna port power, 1=Enable, 0=Disable.
+        [-l gain_db] # RX LNA (IF) gain, 0-40dB, 8dB steps
+        [-g gain_db] # RX VGA (baseband) gain, 0-62dB, 2dB steps
+        [-x gain_db] # TX VGA (IF) gain, 0-47dB, 1dB steps
+				
+        частота дискретизации				
+        [-s sample_rate_hz] # Sample rate in Hz (2-20MHz, default 10MHz).
+        
+		передача непрерывного сигнала
+		[-n num_samples] # Number of samples to transfer (default is unlimited).
+        [-c amplitude] # CW signal source mode, amplitude 0-127 (DC value to DAC).
+        [-R] # Repeat TX mode (default is off)
+
+		сложные настройки		
+        [-b baseband_filter_bw_hz] # Set baseband filter bandwidth in Hz.
+        Possible values: 1.75/2.5/3.5/5/5.5/6/7/8/9/10/12/14/15/20/24/28MHz, default <= 0.75 * sample_rate_hz.
+        [-C ppm] # Set Internal crystal clock error in ppm.
+        [-H hw_sync_enable] # Synchronise USB transfer using GPIO pins.
+		
+		
+---
+		
+передача непрерывного сигнала с амплитудой 127 (максимальной) на частоте 3 МГц с частотой дискретизации 10 МГц
+		
+hackrf_transfer.exe -c 127 -f 2000000 -a 0 -x 20
+
+call hackrf_set_sample_rate(10000000 Hz/10.000 MHz)
+call hackrf_set_hw_sync_mode(0)
+call hackrf_set_freq(2000000 Hz/2.000 MHz)
+call hackrf_set_amp_enable(0)
+Stop with Ctrl-C
+20.2 MiB / 1.010 sec = 20.0 MiB/second, amplitude -inf dBfs
+Caught signal 0
+Exiting...
+Total time: 2.02262 s
+hackrf_stop_tx() done
+hackrf_close() done
+hackrf_exit() done
+exit
+
+----
+
+передача непрерывного сигнала с амплитудой 127 (максимальной) на частоте 3 МГц с частотой дискретизации 2 МГц
+
+hackrf_transfer.exe -c 127 -f 3000000 -s 2000000 -a 0 -x 20
+call hackrf_set_sample_rate(2000000 Hz/2.000 MHz)
+call hackrf_set_hw_sync_mode(0)
+call hackrf_set_freq(3000000 Hz/3.000 MHz)
+call hackrf_set_amp_enable(0)
+Stop with Ctrl-C
+ 3.9 MiB / 1.003 sec =  3.9 MiB/second, amplitude -inf dBfs
+Caught signal 0
+Exiting...
+Total time: 2.02009 s
+hackrf_stop_tx() done
+hackrf_close() done
+hackrf_exit() done
+exit
+
+-----
+
+передача сигнала из файла a.bin на частоте 3 МГц с частотой дискретизации 2 МГц
+
+hackrf-tools>hackrf_transfer.exe -t a.bin -f 3000000 -s 2000000 -a 0 -x 20
+call hackrf_set_sample_rate(2000000 Hz/2.000 MHz)
+call hackrf_set_hw_sync_mode(0)
+call hackrf_set_freq(3000000 Hz/3.000 MHz)
+call hackrf_set_amp_enable(0)
+Stop with Ctrl-C
+ 3.9 MiB / 1.009 sec =  3.9 MiB/second, amplitude -inf dBfs
+Exiting... hackrf_is_streaming() result: streaming terminated (-1004)
+Total time: 3.03958 s
+hackrf_stop_tx() done
+hackrf_close() done
+hackrf_exit() done
+fclose() done
+exit
+
+---
+
+создание файла a.bin с помощью https://octave.org/download  (в матлабе наверное тоже заработает)
+
+
+%2023.06 hackrf I/Q file +-127
+
+beep
+%sound(2*sin(0:0.1:200))
+
+clc()
+clear all
+clear global
+close all
+%clf
+more off; %show output immediately (also fflush(stdout))
+beep_on_error = true;
+
+disp('start')
+
+infostep = 10000+1
+
+filepath = ''
+filename = 'a.bin'
+
+a1re = 127  %I1
+a1im = 0  %Q1
+n1 = 10
+
+a2re = 0
+a2im = 0
+n2 = 20
+
+nrep = 100000
+
+a(2*(n1+n2)*nrep) = int8(0);  %array preallocation
+
+counter = 1;
+
+for jj=1:nrep
+
+for ii = 1:n1
+ a(counter) = int8(a1re);
+ a(counter+1) = int8(a1im);
+ counter = counter + 2;
+end  %ii
+
+for ii = 1:n2
+ a(counter) = int8(a2re);
+ a(counter+1) = int8(a2im);
+ counter = counter + 2;
+end  %ii
+
+if (mod(counter, infostep)==0) jj  end  %if
+
+end  %jj
+
+disp('data ready')
+
+size(a)
+
+fd = fopen([filepath filename], 'w')
+disp('saving data')
+fwrite(fd, a);
+fclose(fd);
+disp('data saved')
+
+disp('done')
+beep
+
+
+
+------------
+

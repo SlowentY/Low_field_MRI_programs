@@ -1,0 +1,370 @@
+==================================================
+Function Name     : hackrf_board_id_name
+Address           : 0x00456930
+Relative Address  : 0x00056930
+Ordinal           : 4 (0x4)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_board_id_read
+Address           : 0x004566e0
+Relative Address  : 0x000566e0
+Ordinal           : 17 (0x11)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_board_partid_serialno_read
+Address           : 0x00456874
+Relative Address  : 0x00056874
+Ordinal           : 10 (0xa)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_close
+Address           : 0x00456468
+Relative Address  : 0x00056468
+Ordinal           : 34 (0x22)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_compute_baseband_filter_bw
+Address           : 0x0045697c
+Relative Address  : 0x0005697c
+Ordinal           : 1 (0x1)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_compute_baseband_filter_bw_round_down_lt
+Address           : 0x00456960
+Relative Address  : 0x00056960
+Ordinal           : 2 (0x2)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_cpld_write
+Address           : 0x004566c0
+Relative Address  : 0x000566c0
+Ordinal           : 18 (0x12)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_error_name
+Address           : 0x00456918
+Relative Address  : 0x00056918
+Ordinal           : 5 (0x5)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_exit
+Address           : 0x0045642c
+Relative Address  : 0x0005642c
+Ordinal           : 36 (0x24)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_filter_path_name
+Address           : 0x00456948
+Relative Address  : 0x00056948
+Ordinal           : 3 (0x3)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_init
+Address           : 0x004563ec
+Relative Address  : 0x000563ec
+Ordinal           : 37 (0x25)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_is_streaming
+Address           : 0x00456574
+Relative Address  : 0x00056574
+Ordinal           : 29 (0x1d)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_max2837_read
+Address           : 0x00456588
+Relative Address  : 0x00056588
+Ordinal           : 28 (0x1c)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_max2837_write
+Address           : 0x004565a8
+Relative Address  : 0x000565a8
+Ordinal           : 27 (0x1b)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_open
+Address           : 0x0045644c
+Relative Address  : 0x0005644c
+Ordinal           : 35 (0x23)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_rffc5071_read
+Address           : 0x00456624
+Relative Address  : 0x00056624
+Ordinal           : 23 (0x17)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_rffc5071_write
+Address           : 0x00456644
+Relative Address  : 0x00056644
+Ordinal           : 22 (0x16)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_set_amp_enable
+Address           : 0x00456850
+Relative Address  : 0x00056850
+Ordinal           : 11 (0xb)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_set_antenna_enable
+Address           : 0x004568fc
+Relative Address  : 0x000568fc
+Ordinal           : 6 (0x6)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_set_baseband_filter_bandwidth
+Address           : 0x00456608
+Relative Address  : 0x00056608
+Ordinal           : 24 (0x18)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_set_freq
+Address           : 0x0045671c
+Relative Address  : 0x0005671c
+Ordinal           : 15 (0xf)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_set_freq_explicit
+Address           : 0x004567dc
+Relative Address  : 0x000567dc
+Ordinal           : 14 (0xe)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_set_lna_gain
+Address           : 0x00456890
+Relative Address  : 0x00056890
+Ordinal           : 9 (0x9)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_set_sample_rate
+Address           : 0x00456824
+Relative Address  : 0x00056824
+Ordinal           : 12 (0xc)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_set_sample_rate_manual
+Address           : 0x00456804
+Relative Address  : 0x00056804
+Ordinal           : 13 (0xd)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_set_txvga_gain
+Address           : 0x004568d8
+Relative Address  : 0x000568d8
+Ordinal           : 7 (0x7)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_set_vga_gain
+Address           : 0x004568b4
+Relative Address  : 0x000568b4
+Ordinal           : 8 (0x8)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_si5351c_read
+Address           : 0x004565c8
+Relative Address  : 0x000565c8
+Ordinal           : 26 (0x1a)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_si5351c_write
+Address           : 0x004565e8
+Relative Address  : 0x000565e8
+Ordinal           : 25 (0x19)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_spiflash_erase
+Address           : 0x00456664
+Relative Address  : 0x00056664
+Ordinal           : 21 (0x15)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_spiflash_read
+Address           : 0x0045669c
+Relative Address  : 0x0005669c
+Ordinal           : 19 (0x13)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_spiflash_write
+Address           : 0x00456678
+Relative Address  : 0x00056678
+Ordinal           : 20 (0x14)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_start_rx
+Address           : 0x004564c0
+Relative Address  : 0x000564c0
+Ordinal           : 33 (0x21)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_start_tx
+Address           : 0x0045652c
+Relative Address  : 0x0005652c
+Ordinal           : 31 (0x1f)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_stop_rx
+Address           : 0x004564fc
+Relative Address  : 0x000564fc
+Ordinal           : 32 (0x20)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_stop_tx
+Address           : 0x00456560
+Relative Address  : 0x00056560
+Ordinal           : 30 (0x1e)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : hackrf_version_string_read
+Address           : 0x004566fc
+Relative Address  : 0x000566fc
+Ordinal           : 16 (0x10)
+Filename          : hackrf.dll
+Full Path         : d:\work\codeblocks-projects\hackrftrans00\hackrf.dll
+Type              : Exported Function
+==================================================
+

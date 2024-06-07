@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pico_test_00_second_copy" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pico_test_00_second_copy" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="inc/HRDL.h" />
+		<Unit filename="inc/PicoCallback.h" />
+		<Unit filename="inc/PicoConnectProbes.h" />
+		<Unit filename="inc/PicoDeviceDefinitionsExperimental.h" />
+		<Unit filename="inc/PicoDeviceEnums.h" />
+		<Unit filename="inc/PicoDeviceStructs.h" />
+		<Unit filename="inc/PicoStatus.h" />
+		<Unit filename="inc/PicoVersion.h" />
+		<Unit filename="inc/pl1000Api.h" />
+		<Unit filename="inc/plcm3Api.h" />
+		<Unit filename="inc/ps2000.h" />
+		<Unit filename="inc/ps2000aApi.h" />
+		<Unit filename="inc/ps3000.h" />
+		<Unit filename="inc/ps3000aApi.h" />
+		<Unit filename="inc/ps4000Api.h" />
+		<Unit filename="inc/ps4000aApi.h" />
+		<Unit filename="inc/ps5000Api.h" />
+		<Unit filename="inc/ps5000aApi.h" />
+		<Unit filename="inc/ps6000Api.h" />
+		<Unit filename="inc/ps6000aApi.h" />
+		<Unit filename="inc/ps6000aApiExperimental.h" />
+		<Unit filename="inc/usbDrDaqApi.h" />
+		<Unit filename="inc/usbPT104Api.h" />
+		<Unit filename="inc/usbtc08.h" />
+		<Unit filename="libps4000a-1.0/PicoStatus.h" />
+		<Unit filename="libps4000a-1.0/ps4000aApi.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

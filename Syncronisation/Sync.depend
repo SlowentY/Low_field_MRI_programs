@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1717578957 source:d:\mikhail_murzin\syncronisation\sync\main.cpp
+	<iostream>
+	<iomanip>
+	<thread>
+	<chrono>
+	"serial_lib_cpp.cpp"
+	<sstream>
+	<fstream>
+	<list>
+	<iterator>
+	<stdlib.h>
+	"serialib.h"
+
+1713883683 d:\mikhail_murzin\syncronisation\sync\due-pp-lib.c
+	"due-pp-lib.h"
+	<math.h>
+	<unistd.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	<sys/file.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+
+1697672975 d:\mikhail_murzin\syncronisation\sync\due-pp-lib.h
+
+1698709174 d:\mikhail_murzin\syncronisation\sync\serialib.h
+	<sys/time.h>
+	<sys/time.h>
+	<windows.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/shm.h>
+	<termios.h>
+	<string.h>
+	<iostream>
+	<sys/time.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/ioctl.h>
+
+1698708839 source:d:\mikhail_murzin\syncronisation\sync\serialib.cpp
+	"serialib.h"
+
+1717157912 d:\mikhail_murzin\syncronisation\sync\serial_lib_cpp.cpp
+	"due-pp-lib.h"
+	<math.h>
+	<unistd.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	<sys/file.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fstream>
+	"serialib.h"
+	<unistd.h>
+	<sys/time.h>
+	<thread>
+	<chrono>
+

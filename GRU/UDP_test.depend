@@ -1,0 +1,166 @@
+# depslib dependency file v1.0
+1693901117 source:d:\clsocket\clsocket-master\src\passivesocket.cpp
+	"PassiveSocket.h"
+
+1693901117 d:\clsocket\clsocket-master\src\passivesocket.h
+	"ActiveSocket.h"
+
+1693901117 d:\clsocket\clsocket-master\src\activesocket.h
+	"SimpleSocket.h"
+
+1693901117 d:\clsocket\clsocket-master\src\simplesocket.h
+	<sys/stat.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<errno.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netinet/tcp.h>
+	<netinet/ip.h>
+	<netdb.h>
+	<linux/if_packet.h>
+	<linux/if_ether.h>
+	<linux/if.h>
+	<sys/sendfile.h>
+	<net/if.h>
+	<sys/time.h>
+	<sys/uio.h>
+	<unistd.h>
+	<fcntl.h>
+	<io.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	"Host.h"
+	"StatTimer.h"
+
+1693901117 d:\clsocket\clsocket-master\src\host.h
+	<limits.h>
+
+1693901117 d:\clsocket\clsocket-master\src\stattimer.h
+	<string.h>
+	<Winsock2.h>
+	<time.h>
+	<stdio.h>
+	<sys/time.h>
+	"Host.h"
+
+1693901117 source:d:\clsocket\clsocket-master\src\simplesocket.cpp
+	"SimpleSocket.h"
+
+1702284712 source:d:\clsocket\udp_test\main.cpp
+	<iostream>
+	"../clsocket-master/src/PassiveSocket.h"
+
+1702284774 source:d:\clsocket\clsocket-master\src\activesocket.cpp
+	"ActiveSocket.h"
+
+1717587126 source:c:\grad_amp\clsocket\udp_test\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<malloc.h>
+	<algorithm>
+	<thread>
+	<chrono>
+	<sstream>
+	<string>
+	<iomanip>
+	<cstdint>
+	<bitset>
+	<windows.h>
+	"src/PassiveSocket.h"
+	<stdio.h>
+
+1693901117 c:\grad_amp\clsocket\udp_test\src\activesocket.h
+	"SimpleSocket.h"
+
+1693901117 c:\grad_amp\clsocket\udp_test\src\simplesocket.h
+	<sys/stat.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<errno.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netinet/tcp.h>
+	<netinet/ip.h>
+	<netdb.h>
+	<linux/if_packet.h>
+	<linux/if_ether.h>
+	<linux/if.h>
+	<sys/sendfile.h>
+	<net/if.h>
+	<sys/time.h>
+	<sys/uio.h>
+	<unistd.h>
+	<fcntl.h>
+	<io.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	"Host.h"
+	"StatTimer.h"
+
+1693901117 c:\grad_amp\clsocket\udp_test\src\host.h
+	<limits.h>
+
+1693901117 c:\grad_amp\clsocket\udp_test\src\stattimer.h
+	<string.h>
+	<Winsock2.h>
+	<time.h>
+	<stdio.h>
+	<sys/time.h>
+	"Host.h"
+
+1693901117 c:\grad_amp\clsocket\udp_test\src\passivesocket.h
+	"ActiveSocket.h"
+
+1702284774 source:c:\grad_amp\clsocket\udp_test\src\activesocket.cpp
+	"ActiveSocket.h"
+
+1693901117 source:c:\grad_amp\clsocket\udp_test\src\passivesocket.cpp
+	"PassiveSocket.h"
+
+1693901117 source:c:\grad_amp\clsocket\udp_test\src\simplesocket.cpp
+	"SimpleSocket.h"
+
+1714420199 source:c:\grad_amp\clsocket\udp_test\untitled1.cpp
+	<iostream>
+	<sstream>
+	<string>
+	<iomanip>
+	<cstdint>
+
+1716204077 c:\grad_amp\clsocket\udp_test\src\requests.h
+	"PassiveSocket.h"
+	"requests.cpp"
+
+1716900387 c:\grad_amp\clsocket\udp_test\src\requests.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<malloc.h>
+	<algorithm>
+	<thread>
+	<chrono>
+	<sstream>
+	<string>
+	<iomanip>
+	<cstdint>
+	<bitset>
+
+1716203770 source:c:\grad_amp\clsocket\udp_test\src\requests.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<malloc.h>
+	<algorithm>
+	<thread>
+	<chrono>
+	<sstream>
+	<string>
+	<iomanip>
+	"PassiveSocket.h"
+

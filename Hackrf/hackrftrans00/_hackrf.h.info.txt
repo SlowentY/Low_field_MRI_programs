@@ -1,0 +1,4 @@
+
+
+link libraries
+.\hackrf.dll

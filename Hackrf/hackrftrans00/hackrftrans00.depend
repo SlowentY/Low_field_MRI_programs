@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1686402384 source:d:\work\codeblocks-projects\hackrftrans00\hackrftrans00.c
+	"hackrf.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<getopt.h>
+	<time.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<errno.h>
+	<inttypes.h>
+	<windows.h>
+	<unistd.h>
+	<sys/time.h>
+	<signal.h>
+
+1675189614 d:\work\codeblocks-projects\hackrftrans00\hackrf.h
+	<stdint.h>
+	<sys/types.h>
+
+1706096891 source:d:\hack_rf\Скомпилированные загрузчики на С++\hackrftrans00\hackrftrans00.c
+	"hackrf.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<getopt.h>
+	<time.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<errno.h>
+	<inttypes.h>
+	<windows.h>
+	<unistd.h>
+	<sys/time.h>
+	<signal.h>
+
+1675189614 d:\hack_rf\Скомпилированные загрузчики на С++\hackrftrans00\hackrf.h
+	<stdint.h>
+	<sys/types.h>
+
+1584205420 source:d:\hack_rf\Скомпилированные загрузчики на С++\hackrftrans00\main.cpp
+	<iostream>
+

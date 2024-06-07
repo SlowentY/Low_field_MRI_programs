@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1717682442 source:d:\pico\pico_test_00_second_copy\main.cpp
+	<stdio.h>
+	<chrono>
+	<iostream>
+	<thread>
+	<fstream>
+	"windows.h"
+	<conio.h>
+	"inc/ps4000aApi.h"
+	"libps4000a-1.0/ps4000aApi.h"
+	<libps4000a-1.0/PicoStatus.h>
+	<sys/types.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<unistd.h>
+	<stdlib.h>
+	<ctype.h>
+	<libps4000a-1.0/ps4000aApi.h>
+	<libps4000a-1.0/PicoStatus.h>
+
+1699624559 d:\pico\pico_test_00_second_copy\libps4000a-1.0\ps4000aapi.h
+	<stdint.h>
+	"PicoStatus.h"
+	"../inc/PicoCallback.h"
+	"../inc/PicoConnectProbes.h"
+	"../inc/PicoVersion.h"
+
+1686294088 d:\pico\pico_test_00_second_copy\libps4000a-1.0\picostatus.h
+	<stdint.h>
+
+1686294088 d:\pico\pico_test_00_second_copy\inc\picocallback.h
+	<stdint.h>
+	"PicoDeviceEnums.h"
+	"PicoDeviceStructs.h"
+
+1686294088 d:\pico\pico_test_00_second_copy\inc\picodeviceenums.h
+
+1686294088 d:\pico\pico_test_00_second_copy\inc\picodevicestructs.h
+	<stdint.h>
+	"PicoConnectProbes.h"
+	"PicoDeviceEnums.h"
+	"PicoStatus.h"
+
+1686294088 d:\pico\pico_test_00_second_copy\inc\picoconnectprobes.h
+	<stdint.h>
+
+1686294088 d:\pico\pico_test_00_second_copy\inc\picostatus.h
+	<stdint.h>
+
+1686294088 d:\pico\pico_test_00_second_copy\inc\picoversion.h
+	<stdint.h>
+	"PicoStatus.h"
+
+1686294142 d:\pico\pico_test_00_second_copy\inc\ps4000aapi.h
+	<stdint.h>
+	"PicoStatus.h"
+	"PicoCallback.h"
+	"PicoConnectProbes.h"
+	"PicoVersion.h"
+
