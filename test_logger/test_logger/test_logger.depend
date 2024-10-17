@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1729171628 source:e:\proj\test_logger\test_logger\simplelogger.cpp
+	"simplelogger.hpp"
+
+1729179048 e:\proj\test_logger\test_logger\simplelogger.hpp
+	<iostream>
+	<iomanip>
+	<chrono>
+	<ctime>
+	<sstream>
+	<fstream>
+	<sstream>
+	<fstream>
+
+1729171565 source:e:\proj\test_logger\test_logger\main.cpp
+	<iostream>
+	"simplelogger.hpp"
+
